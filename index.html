@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- Bootstrap Link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<title>Educational Site Static App</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="./index.css"/>
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+	<!-- Bootstrap script -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Icon Font -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+
+	<!-- Navbar Start -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#hero">ARCHIVES</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+	      <div class="navbar-nav gap-3">
+	        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+	        <a class="nav-link" href="#about">About</a>
+	        <a class="nav-link" href="#products">Shop</a>
+	        <a class="nav-link" href="#contact">Contact</a>
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+	<!-- Navbar End -->
+
+	<!-- Main Section Start -->
+	<div class="container-fluid">
+
+		<!-- Landing Page Start -->
+		<div class="row hero" id="hero">
+
+			<!-- Heading/Hero Section Start -->
+			<div class="col-md-6 col-12 ms-md-5">
+				<div class="landing-text">
+					<h3 class="h-small">DISCOVER THE PAST</h3>
+					<h1 class="h-title">The Archives</h1>
+					<h3 class="h-small mb-4">HISTORY . MYTHOLOGY . CLASSIC TALES</h3>
+					<h4 class="h-desc">Explore historical events, ancient civilizations,</h4>
+					<h4 class="h-desc">and legendary stories preserved through time.</h4>
+
+					<button class="browse-btn" onclick="location.href='#products'">BROWSE</button>
+				</div>
+
+				
+				
+			</div>
+			<!-- Heading/Hero Section End -->
+			
+		</div>
+		<!-- Landing Page End -->
+
+		<!-- About Page Start -->
+
+		<section class="about-section py-5" id="about">
+			<div class="container">
+				<div class="row align-items-center g-5">
+					<div class="col-md-5">
+
+						<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+						  <div class="carousel-inner">
+						    <div class="carousel-item active">
+						      <img src="./images/history-page1.png" class="d-block w-100" alt="...">
+						    </div>
+						    <div class="carousel-item">
+						      <img src="./images/history-page2.png" class="d-block w-100" alt="...">
+						    </div>
+						    <div class="carousel-item">
+						      <img src="./images/history-page3.png" class="d-block w-100" alt="...">
+						    </div>
+						  </div>
+						  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="visually-hidden">Previous</span>
+						  </button>
+						  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="visually-hidden">Next</span>
+						  </button>
+						</div>
+						
+					</div>
+
+					<div class="col-md-7">
+						<div class="about-card">
+
+							<h4 class="about-heading text-center">Our Mission</h4>
+
+							<p class="about-text text-center">
+								To preserve timeless stories, historical events, and legendary literature through an engaging and accessible educational archive.
+							</p>
+
+							<h4 class="about-heading mt-5 text-center">Our Vision</h4>
+
+							<p class="about-text text-center">
+								To inspire curiosity, imagination, and appreciation for history, mythology, and classic storytelling among readers worldwide.
+								
+							</p>
+							
+						</div>
+						
+					</div>
+
+					
+				</div>
+				
+			</div>
+			
+		</section>
+		
+		<!-- About Page End -->
+
+		<!-- Products/Cards Section Start -->
+		<section id="products-section">
+			<div class="container py-5 " id="products">
+
+				<div class="row text-center mb-4">
+					<h2 class="products-title"> Our Collection</h2>
+				</div>
+
+				<div class="row g-4 align-items-stretch">
+
+					<div class="col-md-4 d-flex">
+						<div class="card">
+							<img src="./images/civil-war.png" alt="book1">
+							<h4>The Civil War</h4>
+							<p>A defining conflict in American history, exploring the struggles, leadership, and turning points that reshaped a nation.</p>
+							<p>Author: James McPherson</p>
+							<button>Details</button>
+						</div>
+					</div>
+
+					<div class="col-md-4 d-flex">
+						<div class="card">
+							<img src="./images/roman-empire.png" alt="book2">
+							<h4>The Rise and Fall of the Roman Empire</h4>
+							<p>The story of Rome’s rise to power, its vast empire, and the internal forces that led to its eventual decline.</p>
+							<p>Author: Michael Klein</p>
+							<button>Details</button>
+						</div>
+					</div>
+
+					<div class="col-md-4 d-flex">
+						<div class="card">
+							<img src="./images/filipino-history.png" alt="book3">
+							<h4>History of the Filipino People</h4>
+							<p>A comprehensive account of the Philippines’ cultural roots, colonial history, and the nation’s path to identity and independence.</p>
+							<p>Author: Teodoro A. Agoncillo</p>
+							<button>Details</button>
+						</div>
+					</div>
+
+					<div class="col-md-4 d-flex">
+						<div class="card">
+							<img src="./images/olympus.png" alt="book4">
+							<h4>The Heroes of Olympus</h4>
+							<p>A modern continuation of mythological adventures where demigods navigate quests inspired by ancient Greek legends.</p>
+							<p>Author: Rick Riordan</p>
+							<button>Details</button>
+						</div>
+					</div>
+
+					<div class="col-md-4 d-flex">
+						<div class="card">
+							<img src="./images/greek-mythology.png" alt="book5">
+							<h4>Mythology: Timeless Tales of Gods and Heroes</h4>
+							<p>A collection of ancient myths recounting the stories of gods, heroes, and legendary creatures from classical civilizations.</p>
+							<p>Author: Edith Hamilton</p>
+							<button>Details</button>
+						</div>
+					</div>
+
+					<div class="col-md-4 d-flex">
+						<div class="card">
+							<img src="./images/percy-jackson.png" alt="book6">
+							<h4>Percy Jackson and The Olympians</h4>
+							<p>A modern fantasy adventure blending Greek mythology with the journey of a young hero discovering his identity and destiny.</p>
+							<p>Author: Rick Riordan</p>
+							<button>Details</button>
+						</div>
+					</div>
+					
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- Contact Section Start -->
+		
+        <div class="row p-5 justify-content-center align-items-center" id="contact">
+
+           <div class="col-md-5 mb-4 mb-md-0 text-center text-md-start">
+               <h2 class="products-title">Visit the Archives</h2>
+               <p class="contact-desc">
+                   Every page holds fragments of history, mythology, and stories that shaped generations.
+               </p>
+
+                   <div class="contact-info mt-4 mb-4">
+                       <p class="mb-2">
+                           <i class="fa-solid fa-envelope me-2"></i>
+                             vmd@gmail.com
+                       </p>
+
+                       <p class="mb-2">
+                         <i class="fa-solid fa-phone me-2"></i>
+                         +63 912 345 6789
+                       </p>
+
+                       <p class="mb-2">
+                         <i class="fa-solid fa-location-dot me-2"></i>
+                         Philippines
+                       </p>
+                   </div>
+
+               <div class="section-line mb-3"></div>
+
+             <!-- Social Media Link Start -->
+
+               <div class="d-flex justify-content-md-start justify-content-center social-icons gap-3">
+                   <a href="https://www.linkedin.com/in/username/" target="_blank" aria-label="LinkedIn Profile">
+                       <i class="fa-brands fa-linkedin"></i>
+                   </a>
+
+                   <a href="https://github.com/username" target="_blank" aria-label="Github Profile">
+                       <i class="fa-brands fa-github"></i>
+                   </a>
+
+                   <a href="https://www.instagram.com/username/" target="_blank" aria-label="Instagram Profile">
+                       <i class="fa-brands fa-instagram"></i>
+                   </a>
+
+                   <a href="https://www.facebook.com/username" target="_blank" aria-label="Facebook Profile">
+                       <i class="fa-brands fa-facebook"></i>
+                   </a>
+               </div>
+
+             <!-- Social Media Link End -->
+
+           </div>
+
+
+
+           <div class="col-md-6">
+
+               <form class="contact-form">
+
+                   <div class="mb-3">
+                       <label for="full_name" class="form-label">Full Name</label>
+                       <input class="form-control" type="text" name="full_name" id="full_name" placeholder="Enter your name" autocomplete>
+                   </div>
+
+                   <div class="mb-3">
+                       <label for="email" class="form-label">Email Address</label>
+                       <input class="form-control" type="email" name="email" id="email" placeholder="email@example.com">
+                   </div>
+
+                   <div class="mb-3">
+                       <label for="message" class="form-label">Message</label>
+                       <textarea class="form-control" name="message" rows="5" id="message" placeholder="Enter your message"></textarea>
+                   </div>
+
+                   <div class="text-center">
+                       <button type="submit" class="submit-btn">
+                         Seal Message
+                       </button>
+                   </div>
+
+               </form>
+
+           </div>
+
+       </div>
+
+   <!-- Contact Section End -->
+			
+
+
+	</div>
+	<!-- Main Section End -->
+
+	<!-- Footer Start -->
+	<footer id="footer" class="justify-content-center align-items-center column d-flex flex-column py-3">
+		<div class="footer-brand">ARCHIVES</div>
+		<div class="footer-2026">&copy; All Rights Reserved 2026</div>
+	</footer>
+	<!-- Footer End -->
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+</body>
+</html>
